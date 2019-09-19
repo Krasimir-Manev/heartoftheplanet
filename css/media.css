@@ -1,0 +1,280 @@
+@media screen and (min-width: 375px) {
+  /* Footer */
+
+  .all-rights .inc {
+    font-size: 1rem;
+  }
+
+  /* End Footer */
+}
+
+@media screen and (min-width: 590px) {
+  /* Header */
+
+  .header {
+    justify-items: center;
+  }
+
+  .content {
+    padding-top: 4.8rem;
+    max-width: 540px;
+  }
+
+  .title {
+    font-size: 3.2rem;
+  }
+
+  .sub-title {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 1rem;
+  }
+
+  /* End Header */
+}
+
+@media screen and (min-width: 768px) {
+  /* Header */
+
+  .title {
+    font-size: 3.4rem;
+  }
+
+  /* End Header */
+
+  /* Menu */
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .navigation nav .menu {
+    position: relative;
+    flex-direction: unset;
+    transform: none;
+    width: 100%;
+    background: inherit;
+  }
+
+  .navigation nav .menu::before {
+    height: 0;
+  }
+
+  .navigation nav .menu li a {
+    margin: 0 0 0 1.5rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 2px rgb(148, 148, 148);
+  }
+
+  /* End Menu */
+
+  /* Nature */
+
+  .nature {
+    height: 100vh;
+  }
+
+  .nature .container {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 3rem;
+    height: 100%;
+  }
+
+  .nature-content {
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .nature-title {
+    font-size: 2.7rem;
+  }
+
+  .nature-text {
+    font-size: 1.3rem;
+    margin-bottom: 1.6rem;
+    color: rgb(98, 98, 98);
+  }
+
+  /* End Nature */
+
+  /* Share */
+
+  .share {
+    height: 100vh;
+  }
+
+  .share .container {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 3rem;
+    height: 100%;
+  }
+
+  .share-title {
+    font-size: 2.7rem;
+  }
+
+  .share-text {
+    font-size: 1.3rem;
+  }
+
+  .share .container img {
+    height: 100%;
+  }
+
+  /* End Share */
+
+  /* Photgraphers */
+
+  .photographers .container {
+    padding-top: 3rem;
+  }
+
+  .photographer-content .person .person-name {
+    font-size: 1.2rem;
+  }
+
+  .photographer-text {
+    padding: 0 0.7rem;
+  }
+
+  .photographer-text q {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .follow .fab {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 1.2rem;
+  }
+
+  /* End Photographers */
+
+  /* Footer */
+
+  .footer-title {
+    display: block;
+  }
+
+  .footer-menu {
+    display: flex;
+  }
+
+  .all-rights {
+    justify-content: flex-start;
+  }
+
+  /* End Footer*/
+}
+
+@media screen and (min-width: 880px) {
+  /* Header */
+
+  .header {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .header-bg {
+    grid-column: 2 / span 1;
+  }
+
+  .content {
+    grid-column: 1 / span 1;
+    padding-top: 0;
+    max-width: 580px;
+  }
+
+  .title,
+  .sub-title {
+    color: #222;
+  }
+
+  .title {
+    font-size: 3.6rem;
+    font-weight: 700;
+  }
+
+  .sub-title {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+
+  .navigation {
+    grid-column: 1 / span 2;
+    padding: 0 1.5rem;
+  }
+
+  /* End Header */
+}
+
+@media screen and (min-width: 1200px) {
+  /* Header */
+
+  .navigation {
+    padding: 0 4rem;
+  }
+
+  /* End Header */
+}
+
+@media screen and (max-height: 414px) {
+  /* Header */
+
+  .content {
+    grid-row: 4 / span 10;
+    padding-top: 2rem;
+  }
+
+  .title {
+    text-shadow: 2px 2px 5px rgb(63, 63, 63);
+    font-size: 3rem;
+  }
+
+  .sub-title {
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    margin-top: 1rem;
+  }
+
+  /* End Header */
+
+  /* Nature */
+
+  .nature {
+    height: auto;
+  }
+
+  .nature .container {
+    padding-top: 0;
+  }
+
+  /* End Nature*/
+
+  /* Share */
+
+  .share .container {
+    padding-top: 0;
+  }
+
+  /* End Share */
+}
+
+@media screen and (max-height: 320px) {
+  /* Header */
+
+  .content {
+    padding-top: 0.5rem;
+  }
+
+  /* End Header */
+}
